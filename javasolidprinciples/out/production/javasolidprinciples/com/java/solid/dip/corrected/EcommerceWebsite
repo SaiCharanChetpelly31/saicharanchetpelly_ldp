@@ -1,0 +1,22 @@
+package com.java.solid.dip.corrected;
+
+public class EcommerceWebsite {
+
+    private BankCard bankCard;
+
+    public EcommerceWebsite(BankCard bankCard) {
+
+        this.bankCard = bankCard;
+    }
+
+    public void doPurchaseSomething(long amount){
+
+        bankCard.doTransaction(amount);
+    }
+
+    public static void main(String[] args) {
+        BankCard bankCard=new CreditCard();
+        EcommerceWebsite website=new EcommerceWebsite(bankCard);
+        website.doPurchaseSomething(5000);
+    }
+}
