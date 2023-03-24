@@ -8,8 +8,10 @@ public class ShoppingCart {
 
     public void addProduct(Product product) {
         products.add(product);
+        System.out.println("Added to cart");
     }
     public int calculateTotalPrice() {
+        System.out.println("calculating totalprice of items in cart");
         int totalPrice = 0;
         for (Product product : products) {
             if(product instanceof  DiscountedProduct){
@@ -19,6 +21,7 @@ public class ShoppingCart {
                 totalPrice+=product.getPrice();
             }
         }
+        System.out.println("Total price of items in cart is "+totalPrice);
         return totalPrice;
     }
 }
