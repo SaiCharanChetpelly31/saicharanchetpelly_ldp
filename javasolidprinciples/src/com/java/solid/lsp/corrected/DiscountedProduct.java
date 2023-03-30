@@ -9,11 +9,13 @@ public class DiscountedProduct extends Product {
         this.discount = discount;
     }
 
+    @Override
     public int getPrice() {
-
-        return super.getPrice() - this.applyDiscount(discount);
+        return super.getPrice();
     }
-    public int applyDiscount(int discount) {
-        return super.getPrice() * (discount)/100;
+
+    @Override
+    public int getDiscountedPrice() {
+        return super.getPrice()* (discount)/100;
     }
 }

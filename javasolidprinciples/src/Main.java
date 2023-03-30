@@ -47,7 +47,7 @@ public class Main {
         Thread.sleep(1000);
         myCart.addProduct(product3);
 
-        int totalPrice = myCart.calculateTotalPrice();
+        int totalPrice = myCart.calculateTotalDiscountedPrice();
 
         Payableinterface creditCardPayment = new CreditCardPayment();
         creditCardPayment.pay();
@@ -59,46 +59,46 @@ public class Main {
 
 
         //By violating SOLID principles
-        System.out.println("By violating SOLID principles");
-        Thread.sleep(1000);
-        UserData user = new UserData();
-        if( user.isUserValidated("Saicharan","password")){
-            Thread.sleep(1000);
-            System.out.println("User is validated succesfully");
-        }
-        else{
-            Thread.sleep(1000);
-            System.out.println("Not a valid username or password");
-        }
-        Thread.sleep(1000);
-        user.store("Saicharan","password");
-        Thread.sleep(1000);
-        user.displayUser("Saicharan","password");
-
-        ShoppingCart cart = new ShoppingCart();
-        Product prod1 = new Product("Laptop",35000);
-        Thread.sleep(1000);
-        Product prod2 = new Product("Book",100);
-        Thread.sleep(3000);
-        //internally it checks if product instance is of type DiscountedPrice,But what if another type of product is created?
-        //Here it is failing lsp, Product type is not Substituable for DiscountedPrice subtyoe
-        Product prod3 = new DiscountedProduct("Mobile",10000,10);
-
-        cart.addProduct(prod1);
-        Thread.sleep(1000);
-        cart.addProduct(prod2);
-        Thread.sleep(1000);
-        cart.addProduct(prod3);
-        int total= cart.calculateTotalPrice();
-        Thread.sleep(2000);
-
-        //suppose user want to pay amount by credit card,but there implementaion for only debit card.In this case ocp and dip is failing.
-        //Because PayAmount is tightly coupled with debit card payment.
-
-        //If user want to pay through phonepe or paytm. The phonepe doesnt support cashback payments.
-        Phonepe phonepe = new Phonepe();
-        Thread.sleep(4000);
-        phonepe.payMoney(total);
+//        System.out.println("By violating SOLID principles");
+//        Thread.sleep(1000);
+//        UserData user = new UserData();
+//        if( user.isUserValidated("Saicharan","password")){
+//            Thread.sleep(1000);
+//            System.out.println("User is validated succesfully");
+//        }
+//        else{
+//            Thread.sleep(1000);
+//            System.out.println("Not a valid username or password");
+//        }
+//        Thread.sleep(1000);
+//        user.store("Saicharan","password");
+//        Thread.sleep(1000);
+//        user.displayUser("Saicharan","password");
+//
+//        ShoppingCart cart = new ShoppingCart();
+//        Product prod1 = new Product("Laptop",35000);
+//        Thread.sleep(1000);
+//        Product prod2 = new Product("Book",100);
+//        Thread.sleep(3000);
+//        //internally it checks if product instance is of type DiscountedPrice,But what if another type of product is created?
+//        //Here it is failing lsp, Product type is not Substituable for DiscountedPrice subtyoe
+//        Product prod3 = new DiscountedProduct("Mobile",10000,10);
+//
+//        cart.addProduct(prod1);
+//        Thread.sleep(1000);
+//        cart.addProduct(prod2);
+//        Thread.sleep(1000);
+//        cart.addProduct(prod3);
+//        int total= cart.calculateTotalPrice();
+//        Thread.sleep(2000);
+//
+//        //suppose user want to pay amount by credit card,but there implementaion for only debit card.In this case ocp and dip is failing.
+//        //Because PayAmount is tightly coupled with debit card payment.
+//
+//        //If user want to pay through phonepe or paytm. The phonepe doesnt support cashback payments.
+//        Phonepe phonepe = new Phonepe();
+//        Thread.sleep(4000);
+//        phonepe.payMoney(total);
 
     }
 }

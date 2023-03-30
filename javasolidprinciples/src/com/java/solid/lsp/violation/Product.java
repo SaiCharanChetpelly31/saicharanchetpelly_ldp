@@ -1,5 +1,7 @@
 package com.java.solid.lsp.violation;
 
+import javax.naming.OperationNotSupportedException;
+
 public class Product {
     private String name;
     private int price;
@@ -11,6 +13,9 @@ public class Product {
     }
     public int getPrice() {
         return price;
+    }
+    public int getDiscountedPrice(){
+        throw new Error();
     }
 
 }

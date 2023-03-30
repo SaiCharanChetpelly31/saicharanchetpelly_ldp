@@ -16,8 +16,7 @@ public class Product {
         return price;
     }
 
-
-    public int applyDiscount() {
+    public int getDiscountedPrice(){
         return 0;
     }
 

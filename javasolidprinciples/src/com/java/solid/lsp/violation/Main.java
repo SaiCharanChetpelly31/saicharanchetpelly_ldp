@@ -7,8 +7,9 @@ public class Main {
         Product product2 = new DiscountedProduct("Laptop", 1500,10);
         cart.addProduct(product1);
         cart.addProduct(product2);
-        int total = cart.calculateTotalPrice();
-        System.out.println("Total Price: " + total);
+        int totalDisocuntedPrice = cart.calculateTotalDiscountedPrice();
+        int totalPrice = cart.calculatePrice();
+        System.out.println("Total Price: " + (totalPrice+totalDisocuntedPrice));
 
     }
 }

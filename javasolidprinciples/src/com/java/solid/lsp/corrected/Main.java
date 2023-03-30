@@ -9,8 +9,9 @@ public class Main {
         cart.addProduct(product1);
         cart.addProduct(product2);
 
-        int total = cart.calculateTotalPrice();
-        System.out.println("Total Price: " + total);
+        int totalPrice=cart.calculatePrice();
+        int totalDiscountedPrice = cart.calculateTotalDiscountedPrice();
+        System.out.println("Total Price: " + (totalDiscountedPrice+totalPrice));
 
     }
 }
