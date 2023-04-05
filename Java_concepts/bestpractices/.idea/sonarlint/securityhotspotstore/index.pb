@@ -1,0 +1,7 @@
+
+l
+<src/primitivedatatypecodesmell/violation/OrderValidator.java,8\e\8ed2f52c3696ead823371df027d844cac1b0eb09
+e
+5src/primitivedatatypecodesmell/corrected/Address.java,f\a\fa4a070c40d8eeaf88a760318348276a9ed1a66d
+l
+<src/primitivedatatypecodesmell/corrected/OrderValidator.java,8\e\8e6902bf924753c4626e95d871a79db87e32e8b5

@@ -1,0 +1,15 @@
+
+k
+java:S1192"IDefine a constant instead of duplicating this literal "password" 3 times.(‡¼‡¦üÿÿÿÿ8¿‡–˜ñ0
+l
+java:S1192"JDefine a constant instead of duplicating this literal "Saicharan" 3 times.(‡¼‡¦üÿÿÿÿ8¿‡–˜ñ0
+7
+java:S1220""Move this file to a named package.8¿‡–˜ñ0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(°à¿8Î‡–˜ñ0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(³ÏÞþÿÿÿÿ8Î‡–˜ñ0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¤³®Ø8Î‡–˜ñ0
+X	java:S125>"<This block of commented-out lines of code should be removed.(ã¿ºÿ8ÜÅŠŠò0
+^
+java:S1128"ARemove this unused import 'com.java.solid.isp.violation.Phonepe'.(¾­öñ8‘³Ý»ô0
+d
+java:S1128"BRemove this unused import 'com.java.solid.srp.violation.UserData'.(¤…•íúÿÿÿÿ8“³Ý»ô0

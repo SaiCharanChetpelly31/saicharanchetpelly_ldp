@@ -1,0 +1,7 @@
+
+R
+java:S1854"<Remove this useless assignment to local variable "SOME_NUM".(ãŞı
+C
+java:S1481"-Remove this unused "SOME_NUM" local variable.(ãŞı
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ï¨‡ƒÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ºó²Âûÿÿÿÿ

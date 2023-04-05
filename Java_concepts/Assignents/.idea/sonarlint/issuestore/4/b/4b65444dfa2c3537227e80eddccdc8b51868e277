@@ -1,0 +1,19 @@
+
+b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(æËÎˆ8Ñ¹óœó0
+8
+java:S1643"Use a StringBuilder instead.(ş‹±\8€…óœó0
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(½ÌÏÔ
+U	java:S106
+"9Replace this use of System.out or System.err by a logger.(È‘´¸8§…óœó0
+I
+java:S1874",Remove this use of "exec"; it is deprecated.(öí¢‹8¡…óœó0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¨ıŒ8§…óœó0
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ßûÖ58¹­ùœó0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(÷Ãçöÿÿÿÿÿ8Óàùœó0
+T	java:S106"9Replace this use of System.out or System.err by a logger.(‚Ú¡8’šüœó0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(œÉ¡îüÿÿÿÿ8“šüœó0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ŸĞÌ€8Õ¬ıœó0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¸™´ûúÿÿÿÿ8¹‰şœó0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ŞÍ±•ıÿÿÿÿ8Ñçşœó0
+U	java:S1063"9Replace this use of System.out or System.err by a logger.(ĞÚü8¾Ê±ó0
+Z	java:S1065"9Replace this use of System.out or System.err by a logger.(ß—Íãûÿÿÿÿ8Àá±ó0

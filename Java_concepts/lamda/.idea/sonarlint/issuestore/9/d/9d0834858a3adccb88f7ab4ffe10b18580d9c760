@@ -1,0 +1,15 @@
+
+R
+java:S2387"0"member" is the name of a field in "SuperScope".(ˆßêîÿÿÿÿÿ8‹’ıèô0
+U	java:S106
+"9Replace this use of System.out or System.err by a logger.(ºŞ«÷8’ıèô0
+T	java:S106"9Replace this use of System.out or System.err by a logger.(Òò†v8’ıèô0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Õì÷³8’ıèô0
+W
+java:S1611":Remove the parentheses around the "familyMember" parameter(ß°ù8’’ıèô0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(è¢ÙÍøÿÿÿÿ8“’ıèô0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(âŠäÂ8âèşèô0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(§ûËÂùÿÿÿÿ8Œ÷€éô0
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ıˆR8ù‡éô0
+>
+java:S1116"Remove this empty statement.(ôŸìúÿÿÿÿ8”’ıèô0

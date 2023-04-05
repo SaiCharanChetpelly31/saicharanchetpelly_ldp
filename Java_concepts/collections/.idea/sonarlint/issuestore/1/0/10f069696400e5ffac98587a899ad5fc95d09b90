@@ -1,0 +1,8 @@
+
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(’Ù‘8©ı±ò0
+‚
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(’Ù‘8´Í‚±ò0
+L
+java:S1197"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ8Ùı±ò0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ˆ¢Ûßüÿÿÿÿ8İı±ò0

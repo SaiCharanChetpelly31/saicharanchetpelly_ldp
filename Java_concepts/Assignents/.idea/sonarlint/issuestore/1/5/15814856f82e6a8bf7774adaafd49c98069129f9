@@ -1,0 +1,8 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(óÆ©Œÿÿÿÿÿ
+X
+java:S1610"6Convert the abstract class "Rodent" into an interface.(ıõ£ûÿÿÿÿ8Æà‹ô0
+[
+java:S5993"9Change the visibility of this constructor to "protected".(‡î»™úÿÿÿÿ8Êà‹ô0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ŞØ³ôıÿÿÿÿ8Ìà‹ô0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÑÍşªûÿÿÿÿ8Íà‹ô0

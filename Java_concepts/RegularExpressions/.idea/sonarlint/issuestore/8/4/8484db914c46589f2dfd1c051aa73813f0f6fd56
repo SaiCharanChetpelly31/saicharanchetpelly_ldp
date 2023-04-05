@@ -1,0 +1,9 @@
+
+7
+java:S1220""Move this file to a named package.8Ó€ÛÊò0
+L
+java:S5869"*Remove duplicates in this character class.(µáÛ‹ÿÿÿÿÿ8ÓÉäÊò0
+n
+java:S5998"LRefactor this repetition that can lead to a stack overflow for large inputs.(µáÛ‹ÿÿÿÿÿ8©ääÊò0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(™–ğ°şÿÿÿÿ8ó€ÛÊò0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(…ı÷ßúÿÿÿÿ8‚ÛÊò0

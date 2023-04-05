@@ -1,0 +1,9 @@
+
+n
+java:S4276"QRefactor this code to use the more specialised Functional Interface 'IntConsumer'(Ùü¢¬8ÜÆ÷ô0
+]
+java:S1612"@Replace this lambda with method reference 'System.out::println'.(Ùü¢¬8ÜÆ÷ô0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ùü¢¬8ÜÆ÷ô0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ä‘ÚÉ8ÌñË÷ô0
+s
+java:S4276"QRefactor this code to use the more specialised Functional Interface 'IntConsumer'(¦É®‹ÿÿÿÿÿ8‚ÕØ÷ô0
